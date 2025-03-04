@@ -1,0 +1,232 @@
+[
+  {
+    "id": "presentation-lmbx2s8h2",
+    "title": "Atomic Column-by-Column Imaging of Atomic Vibrations Using Segmented and Pixelated Detectors",
+    "speakers": "Koudai Tabata",
+    "conference": "MCEM Seminar",
+    "date": "2025/2/10",
+    "year": "2025",
+    "place": "Melbourne",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-zw9rawjl8",
+    "title": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "The 13th Asia Pacific Microscopy Congress",
+    "date": "2025/2/4",
+    "year": "2025",
+    "place": "Brisbane",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-owbdmdwav",
+    "title": "Towards Real-time Imaging of Atomic Vibrations with a Pixelated Detector",
+    "speakers": "Koudai Tabata, Yuji Kohno, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "2024 MRS Fall Meeting & Exhibit",
+    "date": "2024/12/2",
+    "year": "2024",
+    "place": "Boston",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-jizghxhac",
+    "title": "Real-space Imaging of Atomic Vibrations with Scanning Transmission Electron Microscopy",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "The UT-NTU Conference at Tokyo 2024",
+    "date": "2024/11/28",
+    "year": "2024",
+    "place": "Tokyo",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-h7baylbel",
+    "title": "Debye-Waller factor estimation based on gradient-based optimization by scanning transmission electron microscopy",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "AI for Materials: 2024 Peking University \"M-Talents\" International Doctoral Students Academic Forum",
+    "date": "2024/10/26",
+    "year": "2024",
+    "place": "Beijing",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-fo9klif8x",
+    "title": "ピクセル型検出器を用いたSTEMによる局所原子振動計測法の検討 ",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本顕微鏡学会若手シンポジウム",
+    "date": "2024/10/18",
+    "year": "2024",
+    "place": "九州大学筑紫キャンパス",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-dml3ztasw",
+    "title": "走査透過電子顕微鏡によるクラスレート中のラットリング運動の直接観察 ",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本熱電学会学術講演会",
+    "date": "2024/9/24",
+    "year": "2024",
+    "place": "産業総合研究所",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-yvegwfp0q",
+    "title": "走査透過電子顕微鏡による局所原子振動計測の検討 ",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本金属学会秋期講演大会",
+    "date": "2024/9/19",
+    "year": "2024",
+    "place": "大阪大学",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-vyazratj3",
+    "title": "Towards quantitative measurements of atomic vibrations with multi-dimensional STEM detectors",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "Microscopy & Microanalysis 2024",
+    "date": "2024/7/29",
+    "year": "2024",
+    "place": "Cleveland",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-66vxre4ep",
+    "title": "微分可能STEMシミュレーションによる物理パラメータ推定法の検討",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本顕微鏡学会学術講演会",
+    "date": "2024/6/4",
+    "year": "2024",
+    "place": "幕張メッセ国際会議場",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-eidsd1oim",
+    "title": "STEMによる局所原子振動定量観察法の開発",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "JST ERATO「柴田超原子分解能電子顕微鏡プロジェクト」第１回公開シンポジウム",
+    "date": "2024/3/7",
+    "year": "2024",
+    "place": "東京大学",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-uiwnd5c38",
+    "title": "Atomic-scale imaging of Anisotropic Rattling Motion in a Clathrate Compound by Scanning Transmission Electron Microscopy",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "MRM2023/IUMRS-ICA2023",
+    "date": "2023/12/14",
+    "year": "2023",
+    "place": "Kyoto",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-ci31ksaai",
+    "title": "Quantitative Analysis of Atomic Rattling Motion in a Clathrate Compound by STEM with a Segmented Detector",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "The 20th International Microscopy Congress",
+    "date": "2023/9/13",
+    "year": "2023",
+    "place": "Busan",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-t3dp9gz5g",
+    "title": "STEMによるクラスレート化合物中の原子ラットリング振動の直接観察",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "新学術領域研究「機能コアの材料科学」 若手の会",
+    "date": "2023/8/1",
+    "year": "2023",
+    "place": "東京大学",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-yrv0s65bw",
+    "title": "Direct observation of anisotropic atomic vibrations by STEM with a segmented detector",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "Advanced Electron Microscopy Workshop for Young Scientists",
+    "date": "2023/7/4",
+    "year": "2023",
+    "place": "Tokyo",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-ct1r43p7b",
+    "title": "Direct imaging of local anisotropic atomic vibrations",
+    "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "conference": "IAMNano2023",
+    "date": "2023/6/29",
+    "year": "2023",
+    "place": "Matsue",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-6ahlq1igx",
+    "title": "分割型検出器STEM による原子ラットリング運動の直接観察",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本顕微鏡学会学術講演会",
+    "date": "2023/6/26",
+    "year": "2023",
+    "place": "くにびきメッセ",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-v4pbvbgp0",
+    "title": "STEM による原子変位パラメータの精密解析",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本顕微鏡学会 超高分解能顕微鏡法分科会 2022年度研究討論会",
+    "date": "2023/3/4",
+    "year": "2023",
+    "place": "マホロバ・マインズ三浦",
+    "isInvited": true
+  },
+  {
+    "id": "presentation-mfbgyi862",
+    "title": "Development of a Method to Observe Local Atomic Vibrations by STEM Using a Segmented Detector",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "MRS 2022 Fall Meeting & Exhibit",
+    "date": "2022/11/29",
+    "year": "2022",
+    "place": "Boston",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-rra6jsx0f",
+    "title": "Direct observation of anisotropic local atomic vibrations by STEM using a segmented detector",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "2022年度顕微鏡学会 若手シンポジウム",
+    "date": "2022/10/11",
+    "year": "2022",
+    "place": "東京大学",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-83tdr3j3w",
+    "title": "分割型検出器 STEM による局所原子振動の直接 観察",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本金属学会 2022年秋期講演大会",
+    "date": "2022/9/22",
+    "year": "2022",
+    "place": "福岡工業大学",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-n96prdwn1",
+    "title": "分割型検出器を用いた STEM による局所原子振 動観察法の開発",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本顕微鏡学会 第78回学術講演会",
+    "date": "2022/5/12",
+    "year": "2022",
+    "place": "ビッグパレットふくしま",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-azycl4kmy",
+    "title": "分割型STEM検出器を用いた局所原子振動直接観察法の開発",
+    "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "conference": "日本顕微鏡学会 第64回シンポジウム",
+    "date": "2021/11/26",
+    "year": "2021",
+    "place": "九州大学",
+    "isInvited": false
+  }
+]
