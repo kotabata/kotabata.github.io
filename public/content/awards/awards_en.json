@@ -1,0 +1,86 @@
+[
+  {
+    "id": "award-1",
+    "title": "優秀ポスター賞(装置手法系)",
+    "awarder": "日本顕微鏡学会第64回シンポジウム",
+    "date": "2021-11",
+    "description": ""
+  },
+  {
+    "id": "award-2",
+    "title": "優秀発表賞",
+    "awarder": "第21回結晶界面研究会",
+    "date": "2021-09",
+    "description": ""
+  },
+  {
+    "id": "award-3",
+    "title": "Best Contributed Speaker Award",
+    "awarder": "2022 MRS Fall Meeting and Exhibit",
+    "date": "2022-11",
+    "description": ""
+  },
+  {
+    "id": "award-4",
+    "title": "工学系研究科長賞",
+    "awarder": "東京大学大学院工学系研究科",
+    "date": "2023-03",
+    "description": ""
+  },
+  {
+    "id": "award-5",
+    "title": "優秀修士論文賞",
+    "awarder": "東京大学大学院工学系研究科マテリアル工学専攻",
+    "date": "2023-03",
+    "description": ""
+  },
+  {
+    "id": "award-6",
+    "title": "学生優秀発表賞",
+    "awarder": "日本顕微鏡学会 第79回学術講演会",
+    "date": "2023-06",
+    "description": ""
+  },
+  {
+    "id": "award-7",
+    "title": "Best Poster Award",
+    "awarder": "IAMNano2023",
+    "date": "2023-06",
+    "description": ""
+  },
+  {
+    "id": "award-8",
+    "title": "優秀発表賞（銅賞）",
+    "awarder": "新学術領域研究「機能コアの材料科学」 若手の会",
+    "date": "2023-08",
+    "description": ""
+  },
+  {
+    "id": "award-9",
+    "title": "Student Award",
+    "awarder": "M&M2024",
+    "date": "2024-07",
+    "description": ""
+  },
+  {
+    "id": "award-10",
+    "title": "学生優秀発表賞",
+    "awarder": "日本顕微鏡学会 第80回学術講演会",
+    "date": "2024-06",
+    "description": ""
+  },
+  {
+    "id": "award-11",
+    "title": "優秀講演賞",
+    "awarder": "日本熱電学会 第21回学術講演会",
+    "date": "2024-09",
+    "description": ""
+  },
+  {
+    "id": "award-12",
+    "title": "Best Oral Presentation Award",
+    "awarder": "2024 Peking University \"Boya M-Talents\" International Doctoral Students Academic Forum",
+    "date": "2024-10",
+    "description": ""
+  }
+]
