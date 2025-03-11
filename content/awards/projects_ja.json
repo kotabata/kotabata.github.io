@@ -1,0 +1,26 @@
+[
+  {
+    "id": "project-1",
+    "title": "JaxEM",
+    "description": "微分可能STEM像シミュレーションライブラリ",
+    "url": "https://github.com/kotabata/JaxEM",
+    "languages": ["Python"],
+    "languageColors": ["#3572A5"]
+  },
+  {
+    "id": "project-2",
+    "title": "cuSTEMLive",
+    "description": "ライブ4D STEM観察のためのアプリケーション",
+    "url": "https://github.com/kotabata/cuSTEMLive",
+    "languages": ["TypeScript", "Rust", "Cuda"],
+    "languageColors": ["#f1e05a", "#333333", "#009900"]
+  },
+  {
+    "id": "project-3",
+    "title": "academic-website",
+    "description": "学術ウェブサイト用のテンプレート（このウェブサイト）",
+    "url": "https://github.com/kotabata/academic-website",
+    "languages": ["TypeScript"],
+    "languageColors": ["#f1e05a"]
+  }
+]
