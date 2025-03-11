@@ -1,22 +1,30 @@
 [
   {
-    "id": "presentation-3mkm9jfxn",
+    "id": "presentation-0coivzetx",
     "title": "Atomic Column-by-Column Imaging of Atomic Vibrations Using Segmented and Pixelated Detectors",
+    "titleJa": "Atomic Column-by-Column Imaging of Atomic Vibrations Using Segmented and Pixelated Detectors",
     "speakers": "Koudai Tabata",
+    "speakersJa": "Koudai Tabata",
     "conference": "MCEM Seminar",
+    "conferenceJa": "MCEM Seminar",
     "date": "2025/2/10",
     "year": "2025",
     "place": "Melbourne",
+    "placeJa": "Melbourne",
     "isInvited": false
   },
   {
-    "id": "presentation-bdpetba4n",
+    "id": "presentation-ia80opcl6",
     "title": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
+    "titleJa": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "speakersJa": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
     "conference": "The 13th Asia Pacific Microscopy Congress",
+    "conferenceJa": "The 13th Asia Pacific Microscopy Congress",
     "date": "2025/2/4",
     "year": "2025",
     "place": "Brisbane",
+    "placeJa": "Brisbane",
     "isInvited": false
   }
 ]

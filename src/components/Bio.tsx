@@ -52,9 +52,31 @@ const Bio: React.FC = () => {
           <div className="flex-1">
             <div className="mb-6 text-center md:text-left">
               <h1 className="text-3xl font-bold text-primary mb-1">
-                {t("bio.name")}
+                {i18n.language === "en" ? (
+                  <>
+                    {t("bio.name")}
+                    {t("bio.phd") && ` | ${t("bio.phd")}`}
+                  </>
+                ) : (
+                  <>
+                    {t("bio.nameJp")}
+                    {t("bio.phdJp") && ` | ${t("bio.phdJp")}`}
+                  </>
+                )}
               </h1>
-              <h2 className="text-xl text-gray-700 mb-1">{t("bio.nameJp")}</h2>
+              <h2 className="text-xl text-gray-700 mb-1">
+                {i18n.language === "en" ? (
+                  <>
+                    {t("bio.nameJp")}
+                    {t("bio.phdJp") && ` | ${t("bio.phdJp")}`}
+                  </>
+                ) : (
+                  <>
+                    {t("bio.name")}
+                    {t("bio.phd") && ` | ${t("bio.phd")}`}
+                  </>
+                )}
+              </h2>
               <p className="text-lg text-gray-600">
                 {t("bio.position")} | {t("bio.affiliation")}
               </p>
@@ -62,47 +84,75 @@ const Bio: React.FC = () => {
 
             {/* ソーシャルリンク */}
             <div className="flex justify-center md:justify-start space-x-4 mb-6">
-              {t("bio.email") !== "" && (
+              <div className="flex flex-col items-center">
                 <a
-                  href={`mailto:${t("bio.email")}`}
+                  href="#contact"
                   className="text-secondary hover:text-accent transition-colors"
-                  aria-label="Email"
+                  aria-label="Contact"
                 >
                   <MdOutlineMailOutline className="h-6 w-6" />
                 </a>
-              )}
+                <span className="text-sm text-gray-600">Contact</span>
+              </div>
               {t("bio.github") !== "" && (
-                <a
-                  href={t("bio.github")}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-secondary hover:text-accent transition-colors"
-                  aria-label="GitHub"
-                >
-                  <FaGithub className="h-6 w-6" />
-                </a>
+                <div className="flex flex-col items-center">
+                  <a
+                    href={t("bio.github")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="black hover:text-accent transition-colors"
+                    aria-label="GitHub"
+                  >
+                    <FaGithub className="h-6 w-6" />
+                  </a>
+                  <span className="text-sm text-gray-600">GitHub</span>
+                </div>
               )}
               {t("bio.scholar") !== "" && (
-                <a
-                  href={t("bio.scholar")}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-secondary hover:text-accent transition-colors"
-                  aria-label="Google Scholar"
-                >
-                  <FaGoogleScholar className="h-6 w-6" />
-                </a>
+                <div className="flex flex-col items-center">
+                  <a
+                    href={t("bio.scholar")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-secondary hover:text-accent transition-colors"
+                    aria-label="Google Scholar"
+                  >
+                    <FaGoogleScholar className="h-6 w-6" />
+                  </a>
+                  <span className="text-sm text-gray-600">Scholar</span>
+                </div>
+              )}
+              {t("bio.orcid") !== "" && (
+                <div className="flex flex-col items-center">
+                  <a
+                    href={t("bio.orcid")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-secondary hover:text-accent transition-colors"
+                    aria-label="ORCID"
+                  >
+                    <img
+                      src="/ORCID-iD_icon_vector.svg"
+                      alt="ORCID"
+                      className="h-6 w-6"
+                    />
+                  </a>
+                  <span className="text-sm text-gray-600">ORCID</span>
+                </div>
               )}
               {t("bio.researchmap") !== "" && (
-                <a
-                  href={t("bio.researchmap")}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-secondary hover:text-accent transition-colors"
-                  aria-label="Researchmap"
-                >
-                  <GiJapan className="h-6 w-6" />
-                </a>
+                <div className="flex flex-col items-center">
+                  <a
+                    href={t("bio.researchmap")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-secondary hover:text-accent transition-colors"
+                    aria-label="Researchmap"
+                  >
+                    <img src="/rm.png" alt="Researchmap" className="h-6 w-6" />
+                  </a>
+                  <span className="text-sm text-gray-600">Researchmap</span>
+                </div>
               )}
             </div>
 

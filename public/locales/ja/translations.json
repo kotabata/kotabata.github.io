@@ -12,11 +12,13 @@
     "bio": {
       "name": "Koudai Tabata",
       "nameJp": "田畑 浩大",
+      "phd": "",
+      "phdJp": "",
       "position": "博士学生",
       "affiliation": "東京大学 総合研究機構",
-      "email": "tabatal@sigma.t.u-tokyo.ac.jp",
       "github": "https://github.com/kotabata",
       "scholar": "",
+      "orcid": "https://orcid.org/0009-0004-0060-5090",
       "researchmap": "",
       "researchInterests": "研究興味",
       "researchTags": [
@@ -31,11 +33,13 @@
       "title": "研究業績",
       "papers": "論文",
       "presentations": "学会発表",
+      "misc": "その他",
       "allYears": "全年度",
       "mainWork": "主要業績",
       "invited": "招待講演",
       "noPapers": "該当年の論文はありません。",
       "noPresentations": "該当年の発表はありません。",
+      "noMisc": "該当年のその他の業績はありません。",
       "showAll": "すべて表示"
     },
     "awards": {
@@ -59,6 +63,7 @@
       "location": "所在地",
       "relatedLinks": "関連リンク",
       "email": "メールアドレス",
+      "emailAdress": "tabata[at]sigma.t.u-tokyo.ac.jp",
       "address": "住所",
       "addressLine1": "電子顕微鏡材料学研究室",
       "addressLine2": "東京大学",

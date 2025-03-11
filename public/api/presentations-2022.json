@@ -1,42 +1,58 @@
 [
   {
-    "id": "presentation-dhiwfm0j3",
+    "id": "presentation-i0xp13b23",
     "title": "Development of a Method to Observe Local Atomic Vibrations by STEM Using a Segmented Detector",
+    "titleJa": "Development of a Method to Observe Local Atomic Vibrations by STEM Using a Segmented Detector",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "speakersJa": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
     "conference": "MRS 2022 Fall Meeting & Exhibit",
+    "conferenceJa": "MRS 2022 Fall Meeting & Exhibit",
     "date": "2022/11/29",
     "year": "2022",
     "place": "Boston",
+    "placeJa": "Boston",
     "isInvited": false
   },
   {
-    "id": "presentation-6c4tw9bgk",
+    "id": "presentation-0iw0ne8s4",
     "title": "Direct observation of anisotropic local atomic vibrations by STEM using a segmented detector",
+    "titleJa": "Direct observation of anisotropic local atomic vibrations by STEM using a segmented detector",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "speakersJa": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
     "conference": "2022年度顕微鏡学会 若手シンポジウム",
+    "conferenceJa": "2022年度顕微鏡学会 若手シンポジウム",
     "date": "2022/10/11",
     "year": "2022",
     "place": "東京大学",
+    "placeJa": "東京大学",
     "isInvited": false
   },
   {
-    "id": "presentation-tf4ndaiw4",
+    "id": "presentation-sotf8no0z",
     "title": "分割型検出器 STEM による局所原子振動の直接 観察",
+    "titleJa": "分割型検出器 STEM による局所原子振動の直接 観察",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "speakersJa": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
     "conference": "日本金属学会 2022年秋期講演大会",
+    "conferenceJa": "日本金属学会 2022年秋期講演大会",
     "date": "2022/9/22",
     "year": "2022",
     "place": "福岡工業大学",
+    "placeJa": "福岡工業大学",
     "isInvited": false
   },
   {
-    "id": "presentation-v3x84gkar",
+    "id": "presentation-zqobfocxm",
     "title": "分割型検出器を用いた STEM による局所原子振 動観察法の開発",
+    "titleJa": "分割型検出器を用いた STEM による局所原子振 動観察法の開発",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
+    "speakersJa": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
     "conference": "日本顕微鏡学会 第78回学術講演会",
+    "conferenceJa": "日本顕微鏡学会 第78回学術講演会",
     "date": "2022/5/12",
     "year": "2022",
     "place": "ビッグパレットふくしま",
+    "placeJa": "ビッグパレットふくしま",
     "isInvited": false
   }
 ]
