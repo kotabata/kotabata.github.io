@@ -1,6 +1,20 @@
 [
   {
-    "id": "presentation-afagx04z0",
+    "id": "presentation-ivb50m642",
+    "title": "Column-by-Column Observation of Atomic VibrationsUsing Segmented and Pixelated Detectors",
+    "titleJa": "Column-by-Column Observation of Atomic VibrationsUsing Segmented and Pixelated Detectors",
+    "speakers": "Koudai Tabata, Takehito Seki, Naoya Shibata",
+    "speakersJa": "Koudai Tabata, Takehito Seki, Naoya Shibata",
+    "conference": "2nd Advanced Electron Microscopy Workshop for Young Scientists",
+    "conferenceJa": "2nd Advanced Electron Microscopy Workshop for Young Scientists",
+    "date": "2025/03/13",
+    "year": "2025",
+    "place": " University of Tokyo",
+    "placeJa": "University of Tokyo",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-4ig8tz0eo",
     "title": "Atomic Column-by-Column Imaging of Atomic Vibrations Using Segmented and Pixelated Detectors",
     "titleJa": "Atomic Column-by-Column Imaging of Atomic Vibrations Using Segmented and Pixelated Detectors",
     "speakers": "Koudai Tabata",
@@ -14,7 +28,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-3vhdm1z9s",
+    "id": "presentation-85sb499cg",
     "title": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
     "titleJa": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",

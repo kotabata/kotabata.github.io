@@ -1,6 +1,20 @@
 [
   {
-    "id": "presentation-afagx04z0",
+    "id": "presentation-ivb50m642",
+    "title": "Column-by-Column Observation of Atomic VibrationsUsing Segmented and Pixelated Detectors",
+    "titleJa": "Column-by-Column Observation of Atomic VibrationsUsing Segmented and Pixelated Detectors",
+    "speakers": "Koudai Tabata, Takehito Seki, Naoya Shibata",
+    "speakersJa": "Koudai Tabata, Takehito Seki, Naoya Shibata",
+    "conference": "2nd Advanced Electron Microscopy Workshop for Young Scientists",
+    "conferenceJa": "2nd Advanced Electron Microscopy Workshop for Young Scientists",
+    "date": "2025/03/13",
+    "year": "2025",
+    "place": " University of Tokyo",
+    "placeJa": "University of Tokyo",
+    "isInvited": false
+  },
+  {
+    "id": "presentation-4ig8tz0eo",
     "title": "Atomic Column-by-Column Imaging of Atomic Vibrations Using Segmented and Pixelated Detectors",
     "titleJa": "Atomic Column-by-Column Imaging of Atomic Vibrations Using Segmented and Pixelated Detectors",
     "speakers": "Koudai Tabata",
@@ -14,7 +28,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-3vhdm1z9s",
+    "id": "presentation-85sb499cg",
     "title": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
     "titleJa": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -28,7 +42,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-wcylptg0e",
+    "id": "presentation-s1xlha5do",
     "title": "Towards Real-time Imaging of Atomic Vibrations with a Pixelated Detector",
     "titleJa": "Towards Real-time Imaging of Atomic Vibrations with a Pixelated Detector",
     "speakers": "Koudai Tabata, Yuji Kohno, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -42,7 +56,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-dh6847hjq",
+    "id": "presentation-kta6vt1fx",
     "title": "Real-space Imaging of Atomic Vibrations with Scanning Transmission Electron Microscopy",
     "titleJa": "Real-space Imaging of Atomic Vibrations with Scanning Transmission Electron Microscopy",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -56,7 +70,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-yfsmkw9ri",
+    "id": "presentation-hdotjhbk4",
     "title": "Debye-Waller factor estimation based on gradient-based optimization by scanning transmission electron microscopy",
     "titleJa": "Debye-Waller factor estimation based on gradient-based optimization by scanning transmission electron microscopy",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -70,7 +84,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-1f9ywxf74",
+    "id": "presentation-rh92669a1",
     "title": "ピクセル型検出器を用いたSTEMによる局所原子振動計測法の検討 ",
     "titleJa": "ピクセル型検出器を用いたSTEMによる局所原子振動計測法の検討 ",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -84,7 +98,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-b9llghdvv",
+    "id": "presentation-hawk3lurr",
     "title": "走査透過電子顕微鏡によるクラスレート中のラットリング運動の直接観察 ",
     "titleJa": "走査透過電子顕微鏡によるクラスレート中のラットリング運動の直接観察 ",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -98,7 +112,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-kx2qe1q4o",
+    "id": "presentation-hkzlnz0b4",
     "title": "走査透過電子顕微鏡による局所原子振動計測の検討 ",
     "titleJa": "走査透過電子顕微鏡による局所原子振動計測の検討 ",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -112,7 +126,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-4zjjk0cv8",
+    "id": "presentation-x8wkkn6h1",
     "title": "Towards quantitative measurements of atomic vibrations with multi-dimensional STEM detectors",
     "titleJa": "Towards quantitative measurements of atomic vibrations with multi-dimensional STEM detectors",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -126,7 +140,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-ahihttcv7",
+    "id": "presentation-luksmp4c0",
     "title": "微分可能STEMシミュレーションによる物理パラメータ推定法の検討",
     "titleJa": "微分可能STEMシミュレーションによる物理パラメータ推定法の検討",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -140,7 +154,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-c0l8t4yu2",
+    "id": "presentation-u1jd185bm",
     "title": "STEMによる局所原子振動定量観察法の開発",
     "titleJa": "STEMによる局所原子振動定量観察法の開発",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -154,7 +168,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-t9aeqslxq",
+    "id": "presentation-3a6ghqj3d",
     "title": "Atomic-scale imaging of Anisotropic Rattling Motion in a Clathrate Compound by Scanning Transmission Electron Microscopy",
     "titleJa": "Atomic-scale imaging of Anisotropic Rattling Motion in a Clathrate Compound by Scanning Transmission Electron Microscopy",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -168,7 +182,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-w22xe2gu1",
+    "id": "presentation-cnvw3kpcl",
     "title": "Quantitative Analysis of Atomic Rattling Motion in a Clathrate Compound by STEM with a Segmented Detector",
     "titleJa": "Quantitative Analysis of Atomic Rattling Motion in a Clathrate Compound by STEM with a Segmented Detector",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -182,7 +196,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-nnye7rec8",
+    "id": "presentation-yprl733nf",
     "title": "STEMによるクラスレート化合物中の原子ラットリング振動の直接観察",
     "titleJa": "STEMによるクラスレート化合物中の原子ラットリング振動の直接観察",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -196,7 +210,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-e4giyzj9x",
+    "id": "presentation-8eum0hz6s",
     "title": "Direct observation of anisotropic atomic vibrations by STEM with a segmented detector",
     "titleJa": "Direct observation of anisotropic atomic vibrations by STEM with a segmented detector",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -210,7 +224,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-qkqg7ebnp",
+    "id": "presentation-6k6nzk0n0",
     "title": "Direct imaging of local anisotropic atomic vibrations",
     "titleJa": "Direct imaging of local anisotropic atomic vibrations",
     "speakers": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
@@ -224,7 +238,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-figxzd7px",
+    "id": "presentation-osza0zg29",
     "title": "分割型検出器STEM による原子ラットリング運動の直接観察",
     "titleJa": "分割型検出器STEM による原子ラットリング運動の直接観察",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -238,7 +252,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-35l8uk6h7",
+    "id": "presentation-9cjjqhfas",
     "title": "STEM による原子変位パラメータの精密解析",
     "titleJa": "STEM による原子変位パラメータの精密解析",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -252,7 +266,7 @@
     "isInvited": true
   },
   {
-    "id": "presentation-h7wjxw8xs",
+    "id": "presentation-dpk9swxt7",
     "title": "Development of a Method to Observe Local Atomic Vibrations by STEM Using a Segmented Detector",
     "titleJa": "Development of a Method to Observe Local Atomic Vibrations by STEM Using a Segmented Detector",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -266,7 +280,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-ds748o9a1",
+    "id": "presentation-4uwyg9ani",
     "title": "Direct observation of anisotropic local atomic vibrations by STEM using a segmented detector",
     "titleJa": "Direct observation of anisotropic local atomic vibrations by STEM using a segmented detector",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -280,7 +294,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-2xe5z7con",
+    "id": "presentation-zsuue3glw",
     "title": "分割型検出器 STEM による局所原子振動の直接 観察",
     "titleJa": "分割型検出器 STEM による局所原子振動の直接 観察",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -294,7 +308,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-uqdhakxk5",
+    "id": "presentation-05ak396fn",
     "title": "分割型検出器を用いた STEM による局所原子振 動観察法の開発",
     "titleJa": "分割型検出器を用いた STEM による局所原子振 動観察法の開発",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
@@ -308,7 +322,7 @@
     "isInvited": false
   },
   {
-    "id": "presentation-8v27n9a1k",
+    "id": "presentation-it8zhgw7f",
     "title": "分割型STEM検出器を用いた局所原子振動直接観察法の開発",
     "titleJa": "分割型STEM検出器を用いた局所原子振動直接観察法の開発",
     "speakers": "田畑 浩大, 関 岳人, 幾原 雄一, 柴田 直哉",
