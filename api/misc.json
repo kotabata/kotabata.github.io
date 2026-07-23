@@ -1,28 +1,54 @@
 [
   {
-    "id": "misc-mi262vsvw",
-    "title": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
-    "titleJa": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
-    "authors": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
-    "authorsJa": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
-    "journal": "13th Asia Pacific Microscopy Congress 2025 (APMC13)",
-    "journalJa": "13th Asia Pacific Microscopy Congress 2025 (APMC13)",
-    "year": "2025",
-    "month": "01",
-    "doi": "10.14293/APMC13-2025-0276",
-    "isMainWork": false
-  },
-  {
-    "id": "misc-0ijrnrxss",
+    "id": "53757249",
     "title": "Towards Quantitative Imaging of Atomic Vibrations with Multi-dimensional STEM Detectors",
     "titleJa": "Towards Quantitative Imaging of Atomic Vibrations with Multi-dimensional STEM Detectors",
-    "authors": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
-    "authorsJa": "Koudai Tabata, Takehito Seki, Yuichi Ikuhara, Naoya Shibata",
+    "authors": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
+    "authorsJa": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
     "journal": "Microscopy and Microanalysis",
     "journalJa": "Microscopy and Microanalysis",
     "year": "2024",
-    "month": "04",
+    "month": "07",
     "doi": "10.1093/mam/ozae044.938",
+    "isMainWork": false
+  },
+  {
+    "id": "53757240",
+    "title": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
+    "titleJa": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
+    "authors": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
+    "authorsJa": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
+    "journal": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
+    "journalJa": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
+    "year": "2025",
+    "month": "",
+    "doi": "10.14293/apmc13-2025-0276",
+    "isMainWork": false
+  },
+  {
+    "id": "53757302",
+    "title": "クラスレート化合物中の異方的原子振動の直接観察",
+    "titleJa": "クラスレート化合物中の異方的原子振動の直接観察",
+    "authors": "田畑浩大,関岳人,幾原雄一,柴田直哉",
+    "authorsJa": "田畑浩大,関岳人,幾原雄一,柴田直哉",
+    "journal": "セラミックス",
+    "journalJa": "セラミックス",
+    "year": "2024",
+    "month": "",
+    "doi": "",
+    "isMainWork": false
+  },
+  {
+    "id": "53757296",
+    "title": "走査透過電子顕微鏡によるクラスレート中のラットリング運動の直接観察",
+    "titleJa": "走査透過電子顕微鏡によるクラスレート中のラットリング運動の直接観察",
+    "authors": "田畑浩大",
+    "authorsJa": "田畑浩大",
+    "journal": "日本熱電学会誌",
+    "journalJa": "日本熱電学会誌",
+    "year": "2024",
+    "month": "",
+    "doi": "",
     "isMainWork": false
   }
 ]
