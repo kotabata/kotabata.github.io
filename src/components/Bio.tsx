@@ -66,7 +66,7 @@ const Bio: React.FC = () => {
                   </>
                 )}
               </h1>
-              <h2 className="text-xl text-gray-700 mb-1">
+              <p className="text-xl text-gray-700 mb-1">
                 {i18n.language === "en" ? (
                   <>
                     {t("bio.nameJp")}
@@ -78,7 +78,7 @@ const Bio: React.FC = () => {
                     {t("bio.phd") && ` | ${t("bio.phd")}`}
                   </>
                 )}
-              </h2>
+              </p>
               <p className="text-lg text-gray-600">
                 {t("bio.position")} | {t("bio.affiliation")}
               </p>
