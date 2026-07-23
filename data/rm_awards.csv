@@ -1,2 +1,16 @@
 awards
-ID,賞名(日本語),賞名(英語),タイトル(日本語),タイトル(英語),授与機関(日本語),授与機関(英語),受賞年月,主要な業績かどうか
+アクション名,アクションタイプ,類似業績マージ優先度,ID,賞名(日本語),賞名(英語),受賞者・グループ(日本語),受賞者・グループ(英語),タイトル(日本語),タイトル(英語),授与機関(日本語),授与機関(英語),概要(日本語),概要(英語),受賞年月,受賞区分,受賞国・地域,URL,主要な業績かどうか,公開の有無
+insert,merge,null,53756961,最優秀発表賞,null,null,null,null,null,"第 25 回結晶界面研究会",null,null,null,2025-09,null,null,null,false,disclosed
+insert,merge,null,53757004,優秀口頭発表賞,"Outstanding Oral Presentation Award",null,null,null,null,日本顕微鏡学会第81回学術講演会,"The 81st Annual Scientific Meeting of the Japanese Society of Microscopy",null,null,2025-06,null,null,null,false,disclosed
+insert,merge,null,53757028,null,"Best Oral Presentation Award",null,null,null,null,null,"2024 Peking University ""Boya M-Talents"" International Doctoral Students Academic Forum",null,null,2024-10,null,null,null,false,disclosed
+insert,merge,null,53757065,"Student Award",null,null,null,null,null,"Microscopy & Microanalysis 2024",null,null,null,2024-07,null,null,null,false,disclosed
+insert,merge,null,53757054,日本セラミックス協会学術写真賞優秀賞,null,null,null,null,null,日本セラミックス協会,null,null,null,2024-07,null,null,null,false,disclosed
+insert,merge,null,53757057,学生優秀発表賞,null,null,null,null,null,日本顕微鏡学会第80回学術講演会,null,null,null,2024-06,null,null,null,false,disclosed
+insert,merge,null,53757105,学生優秀発表賞,null,null,null,null,null,日本顕微鏡学会第79回学術講演会,null,null,null,2023-06,null,null,null,false,disclosed
+insert,merge,null,53757089,優秀発表賞（銅賞）,null,null,null,null,null,"新学術領域研究「機能コアの材料科学」 若手の会",null,null,null,2023-06,null,null,null,false,disclosed
+insert,merge,null,53757120,優秀修士論文賞,null,null,null,null,null,東京大学大学院工学系研究科マテリアル工学専攻,null,null,null,2023-03,null,null,null,false,disclosed
+insert,merge,null,53757114,工学系研究科長賞,null,null,null,null,null,東京大学大学院工学系研究科,null,null,null,2023-03,null,null,null,false,disclosed
+insert,merge,null,53757124,null,"Best Contributed Speaker Award",null,null,null,null,null,"2022 MRS Fall Meeting and Exhibit",null,null,2022-11,null,null,null,false,disclosed
+insert,merge,null,53757132,優秀ポスター賞(装置手法系),null,null,null,null,null,"日本顕微鏡学会第 64 回シンポジウム",null,null,null,2021-11,null,null,null,false,disclosed
+insert,merge,null,53757151,優秀発表賞,null,null,null,null,null,第21回結晶界面工学研究会,null,null,null,2021-08,null,null,null,false,disclosed
+insert,merge,null,53757049,優秀講演賞,null,null,null,null,null,日本熱電学会第21回学術講演会,null,null,null,null,null,null,null,false,disclosed

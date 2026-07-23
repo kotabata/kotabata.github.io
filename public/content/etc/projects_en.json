@@ -1,0 +1,10 @@
+[
+  {
+    "id": "project-1",
+    "title": "academic-website",
+    "description": "Template is for academic websites (this website)",
+    "url": "https://github.com/kotabata/academic-website",
+    "languages": ["TypeScript"],
+    "languageColors": ["#f1e05a"]
+  }
+]
