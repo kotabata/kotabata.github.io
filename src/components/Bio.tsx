@@ -1,10 +1,9 @@
+import Markdown from "markdown-to-jsx";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { FaGoogleScholar } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import { GiJapan } from "react-icons/gi";
+import { FaGoogleScholar } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
-import Markdown from "markdown-to-jsx";
 
 const Bio: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -154,6 +153,24 @@ const Bio: React.FC = () => {
                   <span className="text-sm text-gray-600">Researchmap</span>
                 </div>
               )}
+              {t("bio.linkedin") !== "" && (
+                <div className="flex flex-col items-center">
+                  <a
+                    href={t("bio.linkedin")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-secondary hover:text-accent transition-colors"
+                    aria-label="LinkedIn"
+                  >
+                    <img
+                      src="/linkedin.png"
+                      alt="LinkedIn"
+                      className="h-6 w-6"
+                    />
+                  </a>
+                  <span className="text-sm text-gray-600">LinkedIn</span>
+                </div>
+              )}
             </div>
 
             {/* 自己紹介文 */}
@@ -182,7 +199,9 @@ const Bio: React.FC = () => {
               </div>
             ) : (
               <div className="prose max-w-none">
-                <Markdown>{bioContent}</Markdown>
+                <Markdown options={{ disableParsingRawHTML: true }}>
+                  {bioContent}
+                </Markdown>
               </div>
             )}
 

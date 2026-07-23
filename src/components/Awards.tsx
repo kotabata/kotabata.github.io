@@ -20,9 +20,9 @@ const Awards: React.FC = () => {
       setIsLoading(true);
       try {
         // 言語に応じたJSONファイルのパス
-        const awardsPath = `./content/awards/awards_${i18n.language}.json`;
-        const grantsPath = `./content/awards/grants_${i18n.language}.json`;
-        const projectsPath = `./content/awards/projects_${i18n.language}.json`;
+        const awardsPath = `/api/awards.json`;
+        const grantsPath = `/api/researchProjects.json`;
+        const projectsPath = `./content/etc/projects_${i18n.language}.json`;
 
         // 並列でデータをフェッチ
         const [awardsResponse, grantsResponse, projectsResponse] =
@@ -37,10 +37,9 @@ const Awards: React.FC = () => {
         const grantsData = await grantsResponse.json();
         const projectsData = await projectsResponse.json();
 
-        // 現在の順序を逆にするために配列を反転
-        setAwards([...awardsData].reverse());
-        setGrants([...grantsData].reverse());
-        setProjects([...projectsData].reverse());
+        setAwards(awardsData);
+        setGrants(grantsData);
+        setProjects(projectsData);
 
         // データが空の場合、表示可能な最初のタブをアクティブにする
         const setDefaultActiveTab = () => {
@@ -75,7 +74,7 @@ const Awards: React.FC = () => {
 
   // 表示するアイテムの制限を行う関数を追加
   const getDisplayedItems = <T extends Award | Grant | Project>(
-    items: T[]
+    items: T[],
   ): T[] => {
     return showAll ? items : items.slice(0, maxItems);
   };
@@ -83,6 +82,10 @@ const Awards: React.FC = () => {
   // 表示するタブがあるかどうかを確認
   const hasAnyData =
     awards.length > 0 || grants.length > 0 || projects.length > 0;
+
+  if (!isLoading && !hasAnyData) {
+    return null;
+  }
 
   return (
     <section id="awards" className="py-16 bg-background-light">
@@ -185,10 +188,16 @@ const Awards: React.FC = () => {
                         className="p-4 bg-white rounded-lg shadow-sm"
                       >
                         <h4 className="text-lg font-medium text-primary">
-                          {award.title}
+                          {i18n.language == "en" ? award.title : award.titleJa}
                         </h4>
-                        <p className="text-gray-700">{award.awarder}</p>
-                        <p className="text-gray-500 text-sm">{award.date}</p>
+                        <p className="text-gray-700">
+                          {i18n.language == "en"
+                            ? award.awarder
+                            : award.awarderJa}
+                        </p>
+                        <p className="text-gray-500 text-sm">
+                          {award.year}.{award.month}
+                        </p>
                       </div>
                     ))}
                   </div>
@@ -215,9 +224,16 @@ const Awards: React.FC = () => {
                         className="p-4 bg-white rounded-lg shadow-sm"
                       >
                         <h4 className="text-lg font-medium text-primary">
-                          {grant.title}
+                          {i18n.language == "en" ? grant.title : grant.titleJa}{" "}
+                          {i18n.language == "en"
+                            ? grant.subject
+                            : grant.subjectJa}
                         </h4>
-                        <p className="text-gray-700">{grant.funder}</p>
+                        <p className="text-gray-700">
+                          {i18n.language == "en"
+                            ? grant.funder
+                            : grant.funderJa}
+                        </p>
                         <p className="text-gray-600">
                           {grant.number && grant.number.trim() !== "" ? (
                             <>
@@ -227,14 +243,22 @@ const Awards: React.FC = () => {
                               •{" "}
                             </>
                           ) : null}
-                          {grant.period}
+                          {grant.yearFrom}.{grant.monthFrom} - {grant.yearTo}.
+                          {grant.monthTo}
                         </p>
-                        {grant.description &&
-                          grant.description.trim() !== "" && (
-                            <p className="mt-2 text-gray-600">
-                              {grant.description}
-                            </p>
-                          )}
+                        {i18n.language == "en"
+                          ? grant.description &&
+                            grant.description.trim() !== "" && (
+                              <p className="mt-2 text-gray-600">
+                                {grant.description}
+                              </p>
+                            )
+                          : grant.descriptionJa &&
+                            grant.descriptionJa.trim() !== "" && (
+                              <p className="mt-2 text-gray-600">
+                                {grant.descriptionJa}
+                              </p>
+                            )}
                       </div>
                     ))}
                   </div>

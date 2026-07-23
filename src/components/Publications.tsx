@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Paper, Presentation, Misc } from "../types";
+import { Misc, Paper, Presentation } from "../types";
 
 const Publications: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -16,27 +16,69 @@ const Publications: React.FC = () => {
   const [showAll, setShowAll] = useState<boolean>(false);
   const maxItems = 5;
 
+  // 論文データの有無を確認し、デフォルトタブを設定
+  useEffect(() => {
+    const abortController = new AbortController();
+
+    const checkPapersAndSetDefaultTab = async () => {
+      try {
+        const response = await fetch("/api/papers.json", {
+          signal: abortController.signal,
+        });
+        const data = await response.json();
+        if (!data || data.length === 0) {
+          setActiveTab("presentations");
+        }
+      } catch (error) {
+        if (error instanceof Error && error.name === "AbortError") {
+          console.log("Fetch aborted");
+          return;
+        }
+        console.error("Failed to fetch papers:", error);
+        setActiveTab("presentations");
+      }
+    };
+
+    checkPapersAndSetDefaultTab();
+
+    return () => {
+      abortController.abort();
+    };
+  }, []);
+
   // 年のリストを取得
   useEffect(() => {
+    const abortController = new AbortController();
+
     const fetchYears = async () => {
       try {
-        const response = await fetch("/api/years.json");
+        const response = await fetch("/api/years.json", {
+          signal: abortController.signal,
+        });
         const data = await response.json();
         setYears(data.years || []);
-
-        // デフォルトですべての年度を選択
         setSelectedYear("");
       } catch (error) {
+        if (error instanceof Error && error.name === "AbortError") {
+          console.log("Fetch aborted");
+          return;
+        }
         console.error("Failed to fetch years:", error);
         setYears([]);
       }
     };
 
     fetchYears();
+
+    return () => {
+      abortController.abort();
+    };
   }, []);
 
   // 論文、発表、またはその他データを取得
   useEffect(() => {
+    const abortController = new AbortController();
+
     const fetchData = async () => {
       setIsLoading(true);
       try {
@@ -46,14 +88,16 @@ const Publications: React.FC = () => {
               ? `./api/papers-${selectedYear}.json`
               : "/api/papers.json"
             : activeTab === "presentations"
-            ? selectedYear
-              ? `./api/presentations-${selectedYear}.json`
-              : "/api/presentations.json"
-            : selectedYear
-            ? `./api/misc-${selectedYear}.json`
-            : "/api/misc.json";
+              ? selectedYear
+                ? `./api/presentations-${selectedYear}.json`
+                : "/api/presentations.json"
+              : selectedYear
+                ? `./api/misc-${selectedYear}.json`
+                : "/api/misc.json";
 
-        const response = await fetch(endpoint);
+        const response = await fetch(endpoint, {
+          signal: abortController.signal,
+        });
         const data = await response.json();
 
         if (activeTab === "papers") {
@@ -64,6 +108,10 @@ const Publications: React.FC = () => {
           setMisc(data || []);
         }
       } catch (error) {
+        if (error instanceof Error && error.name === "AbortError") {
+          console.log("Fetch aborted");
+          return;
+        }
         console.error(`Failed to fetch ${activeTab}:`, error);
         if (activeTab === "papers") {
           setPapers([]);
@@ -78,16 +126,22 @@ const Publications: React.FC = () => {
     };
 
     fetchData();
+
+    return () => {
+      abortController.abort();
+    };
   }, [activeTab, selectedYear]);
 
   // 表示するアイテムの制限
   const getDisplayedItems = <T extends Paper | Presentation | Misc>(
-    items: T[]
+    items: T[],
   ): T[] => {
     return showAll ? items : items.slice(0, maxItems);
   };
 
-  // タブが変更されたときにshowAllをリセット
+  // タブが変更されたときにactiveTabとshowAllを更新する。
+  // 実際のデータ取得は activeTab を依存に持つ useEffect が担当するため、
+  // ここで fetch を行うと二重取得になる（旧実装のバグ）。
   const handleTabChange = (tab: "papers" | "presentations" | "misc") => {
     setActiveTab(tab);
     setShowAll(false);
