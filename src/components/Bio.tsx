@@ -44,7 +44,7 @@ const Bio: React.FC = () => {
           {/* プロフィール写真 */}
           <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg flex-shrink-0">
             <img
-              src="/images/profile.png"
+              src="./images/profile.png"
               alt={t("bio.name")}
               className="w-full h-full object-cover"
             />
@@ -134,7 +134,7 @@ const Bio: React.FC = () => {
                     aria-label="ORCID"
                   >
                     <img
-                      src="/ORCID-iD_icon_vector.svg"
+                      src="./ORCID-iD_icon_vector.svg"
                       alt="ORCID"
                       className="h-6 w-6"
                     />
@@ -151,7 +151,7 @@ const Bio: React.FC = () => {
                     className="text-secondary hover:text-accent transition-colors"
                     aria-label="Researchmap"
                   >
-                    <img src="/rm.png" alt="Researchmap" className="h-6 w-6" />
+                    <img src="./rm.png" alt="Researchmap" className="h-6 w-6" />
                   </a>
                   <span className="text-sm text-gray-600">Researchmap</span>
                 </div>
@@ -166,7 +166,7 @@ const Bio: React.FC = () => {
                     aria-label="LinkedIn"
                   >
                     <img
-                      src="/linkedin.png"
+                      src="./linkedin.png"
                       alt="LinkedIn"
                       className="h-6 w-6"
                     />

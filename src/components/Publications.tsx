@@ -22,7 +22,7 @@ const Publications: React.FC = () => {
 
     const checkPapersAndSetDefaultTab = async () => {
       try {
-        const response = await fetch("/api/papers.json", {
+        const response = await fetch("./api/papers.json", {
           signal: abortController.signal,
         });
         if (!response.ok) {
@@ -55,7 +55,7 @@ const Publications: React.FC = () => {
 
     const fetchYears = async () => {
       try {
-        const response = await fetch("/api/years.json", {
+        const response = await fetch("./api/years.json", {
           signal: abortController.signal,
         });
         if (!response.ok) {
@@ -92,14 +92,14 @@ const Publications: React.FC = () => {
           activeTab === "papers"
             ? selectedYear
               ? `./api/papers-${selectedYear}.json`
-              : "/api/papers.json"
+              : "./api/papers.json"
             : activeTab === "presentations"
               ? selectedYear
                 ? `./api/presentations-${selectedYear}.json`
-                : "/api/presentations.json"
+                : "./api/presentations.json"
               : selectedYear
                 ? `./api/misc-${selectedYear}.json`
-                : "/api/misc.json";
+                : "./api/misc.json";
 
         const response = await fetch(endpoint, {
           signal: abortController.signal,

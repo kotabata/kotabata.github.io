@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
-import { CiPhone, CiMail, CiLocationOn } from "react-icons/ci";
+import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
                   className="flex items-center hover:text-accent transition-colors"
                 >
                   <img
-                    src="/images/lab-logo.png"
+                    src="./images/lab-logo.png"
                     alt={t("contact.labName")}
                     className="h-10 mr-3"
                   />
