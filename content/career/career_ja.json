@@ -25,8 +25,18 @@
       "organization": "東京大学",
       "location": "東京, 日本",
       "startDate": "2023",
-      "endDate": null,
+      "endDate": "2026",
       "description": "",
       "type": "education"
+    },
+    {
+      "id": "career-4",
+      "position": "JSPS 特別研究員",
+      "organization": "東京大学",
+      "location": "東京, 日本",
+      "startDate": "2026",
+      "endDate": null,
+      "description": "",
+      "type": "work"
     }
   ]
