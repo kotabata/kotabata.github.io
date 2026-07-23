@@ -32,6 +32,19 @@ const Awards: React.FC = () => {
             fetch(projectsPath),
           ]);
 
+        // レスポンスのステータスを確認
+        if (!awardsResponse.ok) {
+          throw new Error(`HTTP ${awardsResponse.status} for awards`);
+        }
+        if (!grantsResponse.ok) {
+          throw new Error(
+            `HTTP ${grantsResponse.status} for research projects`,
+          );
+        }
+        if (!projectsResponse.ok) {
+          throw new Error(`HTTP ${projectsResponse.status} for projects`);
+        }
+
         // 各データを解析
         const awardsData = await awardsResponse.json();
         const grantsData = await grantsResponse.json();

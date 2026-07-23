@@ -15,6 +15,9 @@ const Bio: React.FC = () => {
       try {
         setIsLoading(true);
         const response = await fetch(`./content/bio/bio_${i18n.language}.md`);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} for bio content`);
+        }
         const content = await response.text();
         setBioContent(content);
       } catch (error) {

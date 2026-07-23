@@ -25,6 +25,9 @@ const Publications: React.FC = () => {
         const response = await fetch("/api/papers.json", {
           signal: abortController.signal,
         });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} for papers`);
+        }
         const data = await response.json();
         if (!data || data.length === 0) {
           setActiveTab("presentations");
@@ -55,6 +58,9 @@ const Publications: React.FC = () => {
         const response = await fetch("/api/years.json", {
           signal: abortController.signal,
         });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} for years`);
+        }
         const data = await response.json();
         setYears(data.years || []);
         setSelectedYear("");
@@ -98,6 +104,9 @@ const Publications: React.FC = () => {
         const response = await fetch(endpoint, {
           signal: abortController.signal,
         });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} for ${activeTab}`);
+        }
         const data = await response.json();
 
         if (activeTab === "papers") {

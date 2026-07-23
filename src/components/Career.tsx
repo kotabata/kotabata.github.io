@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { CareerItem } from "../types";
+import { CgWorkAlt } from "react-icons/cg";
 import {
   HiOutlineAcademicCap,
   HiOutlineComputerDesktop,
 } from "react-icons/hi2";
-import { CgWorkAlt } from "react-icons/cg";
+import { CareerItem } from "../types";
 
 const Career: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -17,8 +17,11 @@ const Career: React.FC = () => {
       setIsLoading(true);
       try {
         const response = await fetch(
-          `./content/career/career_${i18n.language}.json`
+          `./content/career/career_${i18n.language}.json`,
         );
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} for career data`);
+        }
         const data = await response.json();
 
         const sortedData = [...data].sort((a, b) => {
@@ -88,8 +91,8 @@ const Career: React.FC = () => {
                       item.type === "education"
                         ? "bg-secondary border-secondary-light"
                         : item.type === "work"
-                        ? "bg-accent border-accent-light"
-                        : "bg-primary border-primary-light"
+                          ? "bg-accent border-accent-light"
+                          : "bg-primary border-primary-light"
                     }`}
                   ></div>
                 </div>
@@ -104,8 +107,8 @@ const Career: React.FC = () => {
                     item.type === "education"
                       ? "border-secondary"
                       : item.type === "work"
-                      ? "border-accent"
-                      : "border-primary"
+                        ? "border-accent"
+                        : "border-primary"
                   }`}
                 >
                   {/* 日付 */}
@@ -114,8 +117,8 @@ const Career: React.FC = () => {
                       item.type === "education"
                         ? "bg-secondary"
                         : item.type === "work"
-                        ? "bg-accent"
-                        : "bg-primary"
+                          ? "bg-accent"
+                          : "bg-primary"
                     }`}
                   >
                     {item.startDate} - {item.endDate || t("career.present")}
