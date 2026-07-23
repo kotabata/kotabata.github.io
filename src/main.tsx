@@ -13,5 +13,5 @@ window.onerror = function (message, source, lineno, colno, error) {
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );

@@ -25,8 +25,18 @@
       "organization": "The University of Tokyo",
       "location": "Tokyo, Japan",
       "startDate": "2023",
-      "endDate": null,
+      "endDate": "2026",
       "description": "",
       "type": "education"
+    },
+    {
+      "id": "career-4",
+      "position": "JSPS Research Fellow",
+      "organization": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "startDate": "2026",
+      "endDate": null,
+      "description": "",
+      "type": "work"
     }
   ]
