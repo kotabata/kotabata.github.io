@@ -1,18 +1,5 @@
 [
   {
-    "id": "53757249",
-    "title": "Towards Quantitative Imaging of Atomic Vibrations with Multi-dimensional STEM Detectors",
-    "titleJa": "Towards Quantitative Imaging of Atomic Vibrations with Multi-dimensional STEM Detectors",
-    "authors": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
-    "authorsJa": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
-    "journal": "Microscopy and Microanalysis",
-    "journalJa": "Microscopy and Microanalysis",
-    "year": "2024",
-    "month": "07",
-    "doi": "10.1093/mam/ozae044.938",
-    "isMainWork": false
-  },
-  {
     "id": "53757240",
     "title": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
     "titleJa": "Development of Quantitative Atomic Vibrational STEM Imaging Technique with a Pixelated Detector",
@@ -23,6 +10,19 @@
     "year": "2025",
     "month": "",
     "doi": "10.14293/apmc13-2025-0276",
+    "isMainWork": false
+  },
+  {
+    "id": "53757249",
+    "title": "Towards Quantitative Imaging of Atomic Vibrations with Multi-dimensional STEM Detectors",
+    "titleJa": "Towards Quantitative Imaging of Atomic Vibrations with Multi-dimensional STEM Detectors",
+    "authors": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
+    "authorsJa": "Koudai Tabata,Takehito Seki,Yuichi Ikuhara,Naoya Shibata",
+    "journal": "Microscopy and Microanalysis",
+    "journalJa": "Microscopy and Microanalysis",
+    "year": "2024",
+    "month": "07",
+    "doi": "10.1093/mam/ozae044.938",
     "isMainWork": false
   },
   {
