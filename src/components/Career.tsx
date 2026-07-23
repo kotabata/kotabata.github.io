@@ -23,8 +23,9 @@ const Career: React.FC = () => {
           throw new Error(`HTTP ${response.status} for career data`);
         }
         const data = await response.json();
+        const items = Array.isArray(data) ? data : [];
 
-        const sortedData = [...data].sort((a, b) => {
+        const sortedData = [...items].sort((a, b) => {
           const dateA = a.endDate || "9999";
           const dateB = b.endDate || "9999";
 

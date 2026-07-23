@@ -29,7 +29,7 @@ const Publications: React.FC = () => {
           throw new Error(`HTTP ${response.status} for papers`);
         }
         const data = await response.json();
-        if (!data || data.length === 0) {
+        if (!Array.isArray(data) || data.length === 0) {
           setActiveTab("presentations");
         }
       } catch (error) {
@@ -62,7 +62,7 @@ const Publications: React.FC = () => {
           throw new Error(`HTTP ${response.status} for years`);
         }
         const data = await response.json();
-        setYears(data.years || []);
+        setYears(Array.isArray(data?.years) ? data.years : []);
         setSelectedYear("");
       } catch (error) {
         if (error instanceof Error && error.name === "AbortError") {
@@ -108,13 +108,14 @@ const Publications: React.FC = () => {
           throw new Error(`HTTP ${response.status} for ${activeTab}`);
         }
         const data = await response.json();
+        const items = Array.isArray(data) ? data : [];
 
         if (activeTab === "papers") {
-          setPapers(data || []);
+          setPapers(items);
         } else if (activeTab === "presentations") {
-          setPresentations(data || []);
+          setPresentations(items);
         } else {
-          setMisc(data || []);
+          setMisc(items);
         }
       } catch (error) {
         if (error instanceof Error && error.name === "AbortError") {

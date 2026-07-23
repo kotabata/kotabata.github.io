@@ -45,10 +45,14 @@ const Awards: React.FC = () => {
           throw new Error(`HTTP ${projectsResponse.status} for projects`);
         }
 
-        // 各データを解析
-        const awardsData = await awardsResponse.json();
-        const grantsData = await grantsResponse.json();
-        const projectsData = await projectsResponse.json();
+        // 各データを解析（配列以外が返っても落ちないようガードする）
+        const awardsJson = await awardsResponse.json();
+        const grantsJson = await grantsResponse.json();
+        const projectsJson = await projectsResponse.json();
+
+        const awardsData = Array.isArray(awardsJson) ? awardsJson : [];
+        const grantsData = Array.isArray(grantsJson) ? grantsJson : [];
+        const projectsData = Array.isArray(projectsJson) ? projectsJson : [];
 
         setAwards(awardsData);
         setGrants(grantsData);
